@@ -35,7 +35,6 @@
 #include "common.h"
 #include "descriptor.h"
 #include "chameleon/morse_runtime.h"
-#include "morse_runtime.h"
 #include <nlopt.h>
 #include <math.h>
 #include <morse.h>
