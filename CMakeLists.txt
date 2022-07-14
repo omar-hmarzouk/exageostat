@@ -827,6 +827,7 @@ if(EXAGEOSTAT_USE_CUDA)
         set_target_properties(exageostat PROPERTIES LINKER_LANGUAGE C )
 else()
 	add_library( exageostat ${EXAGEOSTAT_SRC} ${EXAGEOSTAT_CHAMELEON_SRC} )
+	    message(FATAL_ERROR "${EXAGEOSTAT_CHAMELEON_SRC}")
 	     include_directories( AFTER ${EXAGEOSTAT_CHAMELEON_SRC}/include/chameleon)
 endif()
 
