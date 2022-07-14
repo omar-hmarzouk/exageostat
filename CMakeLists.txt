@@ -702,7 +702,7 @@ include_directories( ${CMAKE_SOURCE_DIR}/exageostat_approx/src/include )
 include_directories( ${CMAKE_SOURCE_DIR}/exageostat_exact/core/include )
 include_directories( ${CMAKE_SOURCE_DIR}/exageostat_exact/runtime/starpu/include )
 include_directories( ${CMAKE_SOURCE_DIR}/exageostat_approx/runtime/starpu/include )
-include_directories( ${CMAKE_SOURCE_DIR}/hicma/chameleon/include/chameleon )
+include_directories( ${CMAKE_SOURCE_DIR}/hicma/chameleon/include )
 set( EXAGEOSTAT_CHAMELEON_SRC "" )
 
 set( EXAGEOSTAT_SRC "" )
