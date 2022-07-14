@@ -21,7 +21,6 @@
 #define _DIAG_H_
 #include "common.h"
 
-
 void morse_pdpotrf_diag(MORSE_enum uplo, MORSE_desc_t *A, int diag_thick,
                    MORSE_sequence_t *sequence, MORSE_request_t *request);
 
